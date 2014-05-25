@@ -1,0 +1,12 @@
+{application, dynamini,
+ [
+  {description, ""},
+  {vsn, git},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { dynamini_app, []}},
+  {env, []}
+ ]}.
